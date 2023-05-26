@@ -17,6 +17,12 @@
 		6D6AE6362A2037FD00010016 /* MoviePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AE6352A2037FD00010016 /* MoviePlayerTests.swift */; };
 		6D6AE6402A2037FD00010016 /* MoviePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AE63F2A2037FD00010016 /* MoviePlayerUITests.swift */; };
 		6D6AE6422A2037FD00010016 /* MoviePlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6AE6412A2037FD00010016 /* MoviePlayerUITestsLaunchTests.swift */; };
+		6D6AE6512A20383100010016 /* Fireworks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE64E2A20383000010016 /* Fireworks.jpg */; };
+		6D6AE6522A20383100010016 /* FastTyping.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE64F2A20383100010016 /* FastTyping.jpg */; };
+		6D6AE6532A20383100010016 /* FastTyping.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE6502A20383100010016 /* FastTyping.mp4 */; };
+		6D6AE6552A2043DB00010016 /* Mountaineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE6542A2043DB00010016 /* Mountaineering.jpg */; };
+		6D6AE6572A2043E300010016 /* Mountaineering.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE6562A2043E300010016 /* Mountaineering.mov */; };
+		6D6AE6592A2043E600010016 /* Seascape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6AE6582A2043E600010016 /* Seascape.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		6D6AE63B2A2037FD00010016 /* MoviePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D6AE63F2A2037FD00010016 /* MoviePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITests.swift; sourceTree = "<group>"; };
 		6D6AE6412A2037FD00010016 /* MoviePlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D6AE64E2A20383000010016 /* Fireworks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fireworks.jpg; sourceTree = "<group>"; };
+		6D6AE64F2A20383100010016 /* FastTyping.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FastTyping.jpg; sourceTree = "<group>"; };
+		6D6AE6502A20383100010016 /* FastTyping.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = FastTyping.mp4; sourceTree = "<group>"; };
+		6D6AE6542A2043DB00010016 /* Mountaineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountaineering.jpg; sourceTree = "<group>"; };
+		6D6AE6562A2043E300010016 /* Mountaineering.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Mountaineering.mov; sourceTree = "<group>"; };
+		6D6AE6582A2043E600010016 /* Seascape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seascape.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 		6D6AE61A2A2037FB00010016 /* MoviePlayer */ = {
 			isa = PBXGroup;
 			children = (
+				6D6AE64F2A20383100010016 /* FastTyping.jpg */,
+				6D6AE6502A20383100010016 /* FastTyping.mp4 */,
+				6D6AE64E2A20383000010016 /* Fireworks.jpg */,
+				6D6AE6542A2043DB00010016 /* Mountaineering.jpg */,
+				6D6AE6562A2043E300010016 /* Mountaineering.mov */,
+				6D6AE6582A2043E600010016 /* Seascape.jpg */,
 				6D6AE61B2A2037FB00010016 /* AppDelegate.swift */,
 				6D6AE61D2A2037FB00010016 /* SceneDelegate.swift */,
 				6D6AE61F2A2037FB00010016 /* ViewController.swift */,
@@ -234,9 +252,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6AE6512A20383100010016 /* Fireworks.jpg in Resources */,
 				6D6AE62B2A2037FD00010016 /* LaunchScreen.storyboard in Resources */,
+				6D6AE6592A2043E600010016 /* Seascape.jpg in Resources */,
+				6D6AE6532A20383100010016 /* FastTyping.mp4 in Resources */,
+				6D6AE6552A2043DB00010016 /* Mountaineering.jpg in Resources */,
+				6D6AE6522A20383100010016 /* FastTyping.jpg in Resources */,
 				6D6AE6282A2037FD00010016 /* Assets.xcassets in Resources */,
 				6D6AE6232A2037FB00010016 /* Main.storyboard in Resources */,
+				6D6AE6572A2043E300010016 /* Mountaineering.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
